@@ -346,7 +346,7 @@
         display: block;
     }
 
-    .hamburger__menu>i {
+    .hamburger__menu {
         display: none;
     }
 
