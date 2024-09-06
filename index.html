@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/utils.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <title>Fat Duck Detailing</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- Infobar Section Starts -->
+      <div class="infobar">
+        <!-- Wrapper for the infobar content -->
+        <div
+          class="infobar__wrapper flex container justify-between align-center"
+        >
+          <!-- Infobar left content -->
+          <div class="infobar__left">
+            <!-- List of contact information and location details -->
+            <ul class="infobar__list flex align-center">
+              <!-- Location information -->
+              <li class="flex">
+                <span class="infobar__icon">
+                  <i class="ri-map-pin-line"></i>
+                </span>
+                w 13th parks suite 559, Denver
+              </li>
+
+              <!-- Phone number -->
+              <li class="flex">
+                <span class="infobar__icon">
+                  <i class="fa-solid fa-phone"></i>
+                </span>
+                +1 123 456 789
+              </li>
+
+              <!-- Operating hours -->
+              <li class="flex">
+                <span class="infobar__icon">
+                  <i class="fa-regular fa-clock"></i>
+                </span>
+                Mon - Sat: 07:00 AM - 06:00 PM
+              </li>
+            </ul>
+          </div>
+          <!-- Infobar left content End -->
+
+          <!-- Infobar right content -->
+          <div class="infobar__right">
+            <!-- Social media icons -->
+            <div class="infobar__social-icon flex">
+              <i class="ri-facebook-circle-fill"></i>
+              <i class="ri-instagram-line"></i>
+              <i class="ri-linkedin-fill"></i>
+              <i class="ri-twitter-x-line"></i>
+            </div>
+          </div>
+          <!-- Infobar right content End -->
+        </div>
+        <!-- Wrapper for the infobar content End -->
+      </div>
+      <!-- Infobar Section Ends -->
+
+      <!-- Navbar Section Start -->
+      <div class="navbar flex">
+        <!-- Wrapper for the navbar content -->
+        <div class="nav__wrapper flex align-center justify-between container">
+          <!-- Navbar left content: Logo -->
+          <div class="nav__left">
+            <span class="logo">
+              <!-- Link to the homepage with the company name as the logo -->
+              <a href="/index.html" class="orbitron">Fat Duck Detailing</a>
+            </span>
+          </div>
+          <!-- Navbar left content End -->
+
+          <!-- Navbar middle content: Navigation Links -->
+          <div class="nav__middle inter">
+            <!-- List of navigation links -->
+            <ul class="flex align-center">
+              <li><a href="./index.html">home</a></li>
+              <li><a href="./pages/about.html">about</a></li>
+              <li><a href="./pages/services.html">services</a></li>
+              <li><a href="./pages/gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+          <!-- Navbar middle content End -->
+
+          <!-- Navbar right content: CTA and Menu Icon -->
+          <div class="nav__right inter">
+            <!-- Call to Action link for booking an appointment -->
+            <a href="./pages/contact.html">Book Appointment</a>
+            <!-- Menu icon for mobile navigation -->
+          </div>
+          <div class="hamburger__menu">
+            <!-- Icon for the hamburger menu (mobile view) -->
+            <i class="ri-menu-3-line"></i>
+          </div>
+          <div class="dropdown">
+            <!-- Dropdown menu for mobile navigation -->
+            <ul class="flex flex-col justify-center align-center">
+              <li><a href="./index.html" class="inter">home</a></li>
+              <li><a href="./pages/about.html" class="inter">about</a></li>
+              <li>
+                <a href="./pages/services.html" class="inter">services</a>
+              </li>
+              <li><a href="./pages/gallery.html" class="inter">Gallery</a></li>
+              <a href="./pages/contact.html" class="dropdown__cta"
+                >Book Appointment</a
+              >
+            </ul>
+          </div>
+          <!-- Navbar right content End -->
+        </div>
+        <!-- Wrapper for the navbar content End -->
+      </div>
+      <!-- Navbar Section End -->
+
+      <!-- Hero Section Starts -->
+      <div class="hero">
+        <!-- Container for the hero section -->
+        <div class="hero__container container">
+          <!-- Wrapper for hero content -->
+          <div class="hero__content-wrapper flex flex-col">
+            <!-- Hero tag (e.g., a slogan or banner) -->
+            <div class="hero__tag inter">
+              <h4>#1 Car detailing in Maryland</h4>
+            </div>
+
+            <!-- Main content of the hero section -->
+            <div class="hero__main-content flex flex-col">
+              <!-- Top section of the hero content -->
+              <div class="hero__content-top flex flex-col">
+                <h1 class="orbitron">
+                  Experience the Ultimate Shine, Every Time
+                </h1>
+                <p>
+                  Our expert team provides top-notch automobile detailing
+                  services to make your car look brand new.
+                </p>
+              </div>
+              <!-- Top section of the hero content End -->
+
+              <!-- Bottom section of the hero content -->
+              <div class="hero__content-bottom flex flex-col">
+                <!-- Call to Action button -->
+                <a href="#" class="cta__btn">Get a quote now</a>
+
+                <!-- Review section of the bottom content -->
+                <div class="hero__review-wrapper align-center flex">
+                  <!-- Review images -->
+                  <div class="hero__review-image flex">
+                    <div class="circle half__moon">
+                      <img
+                        src="/assets/images/Human face1.jpeg"
+                        alt="Review Image 1"
+                      />
+                    </div>
+                    <div class="circle half__moon">
+                      <img
+                        src="/assets/images/Human face2.jpeg"
+                        alt="Review Image 2"
+                      />
+                    </div>
+                    <div class="circle half__moon">
+                      <img
+                        src="/assets/images/Human face3.jpeg"
+                        alt="Review Image 3"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Review rating -->
+                  <div class="hero__review-rating flex flex-col">
+                    <p>5-Star rated services</p>
+                    <ul class="stars__container flex">
+                      <li><i class="ri-star-fill"></i></li>
+                      <li><i class="ri-star-fill"></i></li>
+                      <li><i class="ri-star-fill"></i></li>
+                      <li><i class="ri-star-fill"></i></li>
+                      <li><i class="ri-star-fill"></i></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Review section End -->
+              </div>
+              <!-- Bottom section of the hero content End -->
+            </div>
+            <!-- Main content of the hero section End -->
+          </div>
+          <!-- Wrapper for hero content End -->
+        </div>
+        <!-- Container for the hero section End -->
+      </div>
+      <!-- Hero Section Ends -->
+
+      <!-- About Section Starts -->
+      <div class="about">
+        <!-- Container for the about section -->
+        <div class="about__container container">
+          <!-- Wrapper for about content -->
+          <div class="about__content-wrapper content__wrapper flex flex-col">
+            <!-- Left side of the about section containing images -->
+            <div class="about__content-left">
+              <div class="about__left-image">
+                <!-- Clipped image with custom shape -->
+                <div class="clipped__image">
+                  <img
+                    src="/assets/images/About img1.jpeg"
+                    alt="Detailing Work Image 1"
+                  />
+                </div>
+
+                <!-- Image with cutout style -->
+                <div class="cutout__image">
+                  <img
+                    src="/assets/images/About img2.jpeg"
+                    alt="Detailing Work Image 2"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Left side of the about section End -->
+
+            <!-- Right side of the about section containing text content -->
+            <div class="about__content-right flex flex-col">
+              <!-- Subheading for the about section -->
+              <span class="section__subheading orbitron red">Who we are?</span>
+
+              <!-- Main heading for the about section -->
+              <h1 class="section__heading orbitron">
+                Give Your Car a Fresh Start with Our Expert Detailing Services!
+              </h1>
+
+              <!-- Description text for the about section -->
+              <p class="section__description">
+                At Fat Duck Auto Detailing, we’re dedicated to making your car
+                look and feel its absolute best. Whether you need a quick
+                touch-up or a complete makeover, our expert team is here to
+                deliver exceptional care and attention to every detail.
+              </p>
+
+              <!-- Features list showcasing what the company offers -->
+              <div class="about__features-container">
+                <ul class="grid">
+                  <li class="flex align-center">
+                    <img
+                      src="/assets/images/Checkmark.svg"
+                      alt="Checkmark"
+                    />Timely Appointment
+                  </li>
+                  <li class="flex align-center">
+                    <img
+                      src="/assets/images/Checkmark.svg"
+                      alt="Checkmark"
+                    />High-quality products
+                  </li>
+                  <li class="flex align-center">
+                    <img
+                      src="/assets/images/Checkmark.svg"
+                      alt="Checkmark"
+                    />Certified professionals
+                  </li>
+                  <li class="flex align-center">
+                    <img
+                      src="/assets/images/Checkmark.svg"
+                      alt="Checkmark"
+                    />Flexible pricing
+                  </li>
+                  <li class="flex align-center">
+                    <img
+                      src="/assets/images/Checkmark.svg"
+                      alt="Checkmark"
+                    />Quick turnaround
+                  </li>
+                  <li class="flex align-center">
+                    <img
+                      src="/assets/images/Checkmark.svg"
+                      alt="Checkmark"
+                    />Timely appointments
+                  </li>
+                </ul>
+              </div>
+              <!-- Features list End -->
+
+              <!-- Horizontal rule to separate content -->
+              <div class="about__hr"></div>
+
+              <!-- Call to Action button for more information -->
+              <a
+                href="#"
+                class="about__cta cta__btn flex justify-center align-center"
+              >
+                More about us <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+            <!-- Right side of the about section End -->
+          </div>
+          <!-- Wrapper for about content End -->
+        </div>
+        <!-- Container for the about section End -->
+      </div>
+      <!-- About Section Ends -->
+
+      <!-- Services Section Starts -->
+      <div class="services">
+        <!-- Container for services section -->
+        <div class="services__container container">
+          <!-- Wrapper for all content in the services section -->
+          <div class="services__content-wrapper content__wrapper flex flex-col">
+            <!-- Heading Section Start -->
+            <div class="services__heading-wrapper flex flex-col">
+              <!-- Left Side of Heading -->
+              <div class="services__heading-left flex flex-col">
+                <!-- Subheading for services section -->
+                <span class="section__subheading orbitron red"
+                  >our services</span
+                >
+                <!-- Main Heading for services section -->
+                <h1 class="section__heading services__heading orbitron">
+                  Discover Our Top-Quality Auto Detailing Services
+                </h1>
+              </div>
+              <!-- Left Side of Heading End -->
+
+              <!-- Right Side of Heading -->
+              <div class="services__heading-right flex flex-col">
+                <!-- Description of services -->
+                <p class="section__description services__description">
+                  At Fat Duck Auto Detailing, we offer top-quality auto
+                  detailing services designed to enhance every aspect of your
+                  vehicle.
+                </p>
+                <!-- Call to Action Link -->
+                <a
+                  href="#"
+                  class="services__cta services__heading-cta flex align-center inter"
+                >
+                  See more services <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+              <!-- Right Side of Heading End -->
+            </div>
+            <!-- Heading Section End -->
+
+            <!-- Services Cards Section Start -->
+            <div class="services__card-wrapper grid">
+              <!-- Individual Service Card 1 Start -->
+              <div class="services__card">
+                <div class="services__card-top">
+                  <!-- Image for service 1 -->
+                  <img src="/assets/images/Exterior detailing.jpg" alt="" />
+                </div>
+                <div class="services__card-bottom">
+                  <div class="services__card-bottom-content flex flex-col">
+                    <!-- Heading for service 1 -->
+                    <h3 class="card-bottom__heading orbitron">
+                      Exterior Detailing
+                    </h3>
+                    <!-- Description for service 1 -->
+                    <p class="card-bottom__description inter">
+                      Clean, polish, and protect your car’s exterior with a
+                      shine-enhancing wax or sealant.
+                    </p>
+                    <!-- Read More Link for service 1 -->
+                    <a
+                      href="/pages/services.html"
+                      class="services__cta text-uppercase inter"
+                    >
+                      Read More <i class="ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Individual Service Card 1 End -->
+
+              <!-- Individual Service Card 2 Start -->
+              <div class="services__card">
+                <div class="services__card-top">
+                  <!-- Image for service 2 -->
+                  <img src="/assets/images/Interior detailing.jpg" alt="" />
+                </div>
+                <div class="services__card-bottom">
+                  <div class="services__card-bottom-content flex flex-col">
+                    <!-- Heading for service 2 -->
+                    <h3 class="card-bottom__heading orbitron">
+                      Interior Detailing
+                    </h3>
+                    <!-- Description for service 2 -->
+                    <p class="card-bottom__description inter">
+                      Deep clean carpets, upholstery, and surfaces to refresh
+                      and sanitize your car’s interior.
+                    </p>
+                    <!-- Read More Link for service 2 -->
+                    <a
+                      href="/pages/services.html"
+                      class="services__cta text-uppercase inter"
+                    >
+                      Read More <i class="ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Individual Service Card 2 End -->
+
+              <!-- Individual Service Card 3 Start -->
+              <div class="services__card">
+                <div class="services__card-top">
+                  <!-- Image for service 3 -->
+                  <img src="/assets/images/Engine bay cleaning.jpg" alt="" />
+                </div>
+                <div class="services__card-bottom">
+                  <div class="services__card-bottom-content flex flex-col">
+                    <!-- Heading for service 3 -->
+                    <h3 class="card-bottom__heading orbitron">
+                      Engine Bay Cleaning
+                    </h3>
+                    <!-- Description for service 3 -->
+                    <p class="card-bottom__description inter">
+                      Degrease and clean your engine bay for improved
+                      performance and appearance.
+                    </p>
+                    <!-- Read More Link for service 3 -->
+                    <a
+                      href="/pages/services.html"
+                      class="services__cta text-uppercase inter"
+                    >
+                      Read More <i class="ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Individual Service Card 3 End -->
+            </div>
+            <!-- Services Cards Section End -->
+          </div>
+          <!-- Wrapper for all content in the services section End -->
+        </div>
+        <!-- Container for services section End -->
+      </div>
+      <!-- Services Section Ends -->
+
+      <!-- Metrics Section Starts -->
+      <div class="metrics">
+        <div class="metrics__container container">
+          <div
+            class="metrics__content-wrapper content__wrapper flex flex-col align-center justify-center"
+          >
+            <div class="metrics__group">
+              <span class="metrics__heading orbitron">95%</span>
+              <p class="metrics__description">Customer Satisfaction Rate</p>
+            </div>
+            <div class="metrics__group">
+              <span class="metrics__heading orbitron">120+</span>
+              <p class="metrics__description">Car Services</p>
+            </div>
+            <div class="metrics__group">
+              <span class="metrics__heading orbitron">35+</span>
+              <p class="metrics__description">Five-Star Reviews</p>
+            </div>
+            <div class="metrics__group">
+              <span class="metrics__heading orbitron">70%</span>
+              <p class="metrics__description">Client Return Rate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Metrics Section Ends -->
+
+      <!-- Gallery Section Starts -->
+      <div class="gallery">
+        <!-- Container for the gallery content -->
+        <div class="gallery__container container">
+          <!-- Wrapper for the gallery content, arranged in a flexbox column -->
+          <div class="gallery__content-wrapper content__wrapper flex flex-col">
+            <!-- Heading and description of the gallery -->
+            <div
+              class="heading__wrapper gallery__heading-wrapper flex flex-col align-center"
+            >
+              <!-- Subheading for the gallery section with specific styles -->
+              <span
+                class="section__subheading gallery__subheading orbitron red"
+              >
+                Gallery
+              </span>
+              <!-- Main heading of the gallery section -->
+              <h1 class="section__heading gallery__heading orbitron">
+                See Our Work in Action
+              </h1>
+              <!-- Description of the gallery, inviting users to view the transformations -->
+              <p class="section__description gallery__description inter">
+                Curious about what we can do for your vehicle? Browse our
+                gallery to see the stunning transformations we've achieved. From
+                deep cleans to complete makeovers, our work speaks for itself.
+              </p>
+            </div>
+
+            <!-- Bottom part of the gallery containing images and a CTA -->
+            <div class="gallery__bottom flex flex-col">
+              <!-- Grid wrapper for gallery images -->
+              <div class="gallery__image-wrapper grid">
+                <!-- Gallery images -->
+                <img src="/assets/images/Gallery img.jpeg" alt="" />
+                <img src="/assets/images/Gallery img1.jpeg" alt="" />
+                <img src="/assets/images/Gallery img2.jpeg" alt="" />
+                <img src="/assets/images/Gallery img3.jpeg" alt="" />
+                <img src="/assets/images/Gallery img4.jpeg" alt="" />
+                <img src="/assets/images/Gallery img5.jpeg" alt="" />
+              </div>
+
+              <!-- Call to Action button for viewing more work -->
+              <a
+                href="./pages/gallery.html"
+                class="cta__btn gallery__cta flex align-center justify-center"
+              >
+                See More work <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Section Ends -->
+
+      <!-- Testimonial Section Starts -->
+      <div class="testimonial">
+        <!-- Container for the entire testimonial section -->
+        <div class="testimonial__container container">
+          <!-- Wrapper for all testimonial content -->
+          <div
+            class="testimonial__content-wrapper content__wrapper flex flex-col"
+          >
+            <!-- Heading section for testimonials -->
+            <div
+              class="heading__wrapper testimonial__heading-wrapper flex flex-col"
+            >
+              <!-- Subheading for the testimonial section -->
+              <span
+                class="section__subheading testimonial__subheading orbitron red"
+              >
+                Testimonials
+              </span>
+              <!-- Main heading for the testimonial section -->
+              <h1 class="section__heading testimonial__heading orbitron">
+                Our Happy Customers
+              </h1>
+              <!-- Brief description for the testimonial section -->
+              <p class="section__description testimonial__description inter">
+                We’re proud of the work we do, but don’t just take our word for
+                it. Hear directly from our satisfied customers who’ve
+                experienced the difference our detailing services can make.
+              </p>
+            </div>
+
+            <!-- Wrapper for all testimonial cards -->
+            <div
+              class="swiper mySwiper flex flex-col align-center justify-center"
+            >
+              <div class="swiper-wrapper testimonial__wrapper">
+                <!-- Testimonial card 1 -->
+                <div class="swiper-slide testimonial__card inter">
+                  <div class="testimonial__card-wrapper">
+                    <div class="testimonial__card-top flex">
+                      <div
+                        class="testimonial__card-top-content flex flex-col justify-center"
+                      >
+                        <!-- Quotation icon and review text -->
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="review">
+                          My car has never looked better! The team was
+                          professional, attentive, and delivered results that
+                          truly exceeded my expectations. I’m absolutely
+                          thrilled with how it turned out and will definitely be
+                          returning.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial__card-bottom">
+                      <div
+                        class="testimonial__card-bottom-content flex align-center justify-between"
+                      >
+                        <!-- Client information and star rating -->
+                        <div class="testimonial__client-info flex align-center">
+                          <img src="/assets/images/Human face4.jpeg" alt="" />
+                          David K.
+                        </div>
+                        <div class="testimonial__stars">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial card 2 -->
+                <div class="swiper-slide testimonial__card inter">
+                  <div class="testimonial__card-wrapper">
+                    <div
+                      class="testimonial__card-top flex flex-col justify-center"
+                    >
+                      <div class="testimonial__card-top-content flex flex-col">
+                        <!-- Quotation icon and review text -->
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="review">
+                          This detailing service is by far the best I’ve ever
+                          tried. The team’s dedication to perfection is evident
+                          in the results—my car looks incredible. They took
+                          their time, and it shows. I’ll be coming back for
+                          sure!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial__card-bottom">
+                      <div
+                        class="testimonial__card-bottom-content flex align-center justify-between"
+                      >
+                        <!-- Client information and star rating -->
+                        <div class="testimonial__client-info flex align-center">
+                          <img src="/assets/images/Human face5.jpeg" alt="" />
+                          Sarah H.
+                        </div>
+                        <div class="testimonial__stars">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial card 3 -->
+                <div class="swiper-slide testimonial__card inter">
+                  <div class="testimonial__card-wrapper">
+                    <div
+                      class="testimonial__card-top flex flex-col justify-center"
+                    >
+                      <div class="testimonial__card-top-content flex flex-col">
+                        <!-- Quotation icon and review text -->
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="review">
+                          Incredible attention to detail! They meticulously
+                          cleaned every nook and cranny, transforming my car to
+                          look and feel brand new. I highly recommend their
+                          services to anyone looking for top-notch detailing.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial__card-bottom">
+                      <div
+                        class="testimonial__card-bottom-content flex align-center justify-between"
+                      >
+                        <!-- Client information and star rating -->
+                        <div class="testimonial__client-info flex align-center">
+                          <img src="/assets/images/Human face6.jpeg" alt="" />
+                          Michael D.
+                        </div>
+                        <div class="testimonial__stars">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial card 4 -->
+                <div class="swiper-slide testimonial__card inter">
+                  <div class="testimonial__card-wrapper">
+                    <div
+                      class="testimonial__card-top flex flex-col justify-center"
+                    >
+                      <div class="testimonial__card-top-content flex flex-col">
+                        <!-- Quotation icon and review text -->
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="review">
+                          Fantastic experience from start to finish! The team
+                          was professional and meticulous, leaving my car
+                          looking amazing. They paid attention to every detail,
+                          and the results were better than I could have
+                          imagined. I’m thrilled with the outcome and will
+                          definitely be back.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial__card-bottom">
+                      <div
+                        class="testimonial__card-bottom-content flex align-center justify-between"
+                      >
+                        <!-- Client information and star rating -->
+                        <div class="testimonial__client-info flex align-center">
+                          <img src="./assets/images/Human face7.jpeg" alt="" />
+                          Franklin C.
+                        </div>
+                        <div class="testimonial__stars">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial card 5 -->
+                <div class="swiper-slide testimonial__card inter">
+                  <div class="testimonial__card-wrapper">
+                    <div
+                      class="testimonial__card-top flex flex-col justify-center"
+                    >
+                      <div class="testimonial__card-top-content flex flex-col">
+                        <!-- Quotation icon and review text -->
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="review">
+                          Amazing job! The team exceeded my expectations,
+                          meticulously cleaning every detail and leaving my car
+                          looking flawless. They were professional and thorough,
+                          and I’m so impressed with the finish. I’ll definitely
+                          be returning.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial__card-bottom">
+                      <div
+                        class="testimonial__card-bottom-content flex align-center justify-between"
+                      >
+                        <!-- Client information and star rating -->
+                        <div class="testimonial__client-info flex align-center">
+                          <img src="/assets/images/Human face8.jpeg" alt="" />
+                          William S.
+                        </div>
+                        <div class="testimonial__stars">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial card 6 -->
+                <div class="swiper-slide testimonial__card inter">
+                  <div class="testimonial__card-wrapper">
+                    <div
+                      class="testimonial__card-top flex flex-col justify-center"
+                    >
+                      <div class="testimonial__card-top-content flex flex-col">
+                        <!-- Quotation icon and review text -->
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="review">
+                          I was blown away by the transformation. Every inch of
+                          my car is spotless, and it shines like never before.
+                          The team was friendly, knowledgeable, and committed to
+                          excellence. This is the best detailing experience I’ve
+                          ever had. Highly recommended!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial__card-bottom">
+                      <div
+                        class="testimonial__card-bottom-content flex align-center justify-between"
+                      >
+                        <!-- Client information and star rating -->
+                        <div class="testimonial__client-info flex align-center">
+                          <img src="/assets/images/Human face1.jpeg" alt="" />
+                          Brad W.
+                        </div>
+                        <div class="testimonial__stars">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pagination for the testimonials swiper -->
+              <div
+                class="testimonial__swiper-navigation-container flex justify-center align-center"
+              >
+                <div class="swiper-button-prev flex-center swiper__navigation">
+                  <i class="ri-arrow-left-line"></i>
+                </div>
+                <div class="swiper-button-next flex_center swiper__navigation">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial Section Ends -->
+
+      <!-- Contact Section Starts -->
+      <div class="contact">
+        <div class="contact__container container">
+          <div class="contact__content-wrapper content__wrapper grid">
+            <!-- Left Side: Contact Information and Map -->
+            <div class="contact__left flex flex-col justify-center">
+              <div class="contact__left-wrapper flex flex-col">
+                <!-- Subheading -->
+                <span
+                  class="contact__subheading section__subheading orbitron red"
+                >
+                  Contact Us
+                </span>
+                <!-- Heading -->
+                <h1 class="contact__heading section__heading orbitron">
+                  Get in Touch with Us Today!
+                </h1>
+                <!-- Description -->
+                <p class="contact__description section__description inter">
+                  We’re here to answer any questions and help you schedule your
+                  next auto detailing service. Whether you need more information
+                  or are ready to book, our team is just a message or call away.
+                </p>
+                <!-- Additional Details (e.g., contact information, map) -->
+                <div class="contact__left-details">
+                  <div class="contact__left-details-container grid inter">
+                    <span class="contact__left-details-heading orbitron">
+                      Our Details
+                    </span>
+                    <div class="contact__left-details-item">
+                      <i class="ri-map-pin-line"></i>
+                      123 Main St, Anytown, USA
+                    </div>
+                    <div class="contact__left-details-item">
+                      <i class="fa-solid fa-phone"></i>
+                      +1 123 456 7890
+                    </div>
+                    <div class="contact__left-details-item">
+                      <i class="fa-regular fa-clock"></i>
+                      8:00 AM - 6:00 PM (Mon-Fri)
+                    </div>
+                    <div class="socials__icon-container flex">
+                      <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                      <a href="#"><i class="ri-instagram-line"></i></a>
+                      <a href="#"><i class="ri-linkedin-fill"></i></a>
+                      <a href="#"><i class="ri-twitter-x-line"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact__left-map-container">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2738.4668811980237!2d-112.03300372417068!3d46.65704275306591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x534353ea61e49e4f%3A0x4f58daf2c6cdec90!2s749%20Maynard%20Rd%2C%20Helena%2C%20MT%2059602%2C%20USA!5e0!3m2!1sen!2sin!4v1725300752456!5m2!1sen!2sin"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <!-- Right Side: Contact Form -->
+            <div class="contact__right flex flex-col justify-center">
+              <div class="contact__right-wrapper">
+                <form action="#" class="contact__form flex flex-col">
+                  <!-- Name Field -->
+                  <div class="contact__form-input-field flex flex-col">
+                    <label for="name" class="orbitron">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="Enter Your Name Here"
+                      class="inter"
+                    />
+                  </div>
+                  <!-- Email Field -->
+                  <div class="contact__form-input-field flex flex-col">
+                    <label for="email" class="orbitron">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Enter Your Email Here"
+                      class="inter"
+                    />
+                  </div>
+                  <!-- Phone Number Field -->
+                  <div class="contact__form-input-field flex flex-col">
+                    <label for="number" class="orbitron">Number</label>
+                    <input
+                      type="number"
+                      id="number"
+                      placeholder="Enter Your Number Here"
+                      class="inter"
+                    />
+                  </div>
+                  <!-- Service Selection -->
+                  <div class="contact__form-input-field flex flex-col">
+                    <label for="service" class="orbitron">Service</label>
+                    <select name="service" id="service">
+                      <option value="interior-detailing">
+                        Interior Detailing
+                      </option>
+                      <option value="exterior-detailing">
+                        Exterior Detailing
+                      </option>
+                      <option value="engine-bay-cleaning">
+                        Engine Bay Cleaning
+                      </option>
+                      <option value="headlight-restoration">
+                        Headlight Restoration
+                      </option>
+                      <option value="polishing">Polishing</option>
+                    </select>
+                  </div>
+                  <!-- Message Field -->
+                  <div class="contact__form-input-field flex flex-col">
+                    <label for="message" class="orbitron">Message</label>
+                    <textarea
+                      id="message"
+                      placeholder="Enter Your Message Here"
+                    ></textarea>
+                  </div>
+                  <!-- Submit Button -->
+                  <div class="contact__form-input-field flex flex-col">
+                    <button type="submit" class="cta__btn">
+                      Send Message <i class="ri-arrow-right-line"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Section Ends -->
+
+      <!-- Footer Section Starts -->
+      <div class="footer">
+        <!-- Main footer container -->
+        <div class="footer__container container">
+          <!-- Wrapper for all footer content with flex and column layout -->
+          <div class="footer__content-wrapper flex flex-col inter">
+            <!-- Top section of the footer containing left and right parts -->
+            <div class="footer__top flex flex-col">
+              <!-- Left part of the footer containing the brand information -->
+              <div class="footer__left">
+                <!-- Brand section with logo, description, and social media icons -->
+                <div class="footer__brand flex flex-col">
+                  <!-- Footer logo -->
+                  <span class="footer__logo orbitron">Fat Duck Detailing</span>
+                  <!-- Description of the business -->
+                  <p class="footer__description">
+                    At Fat Duck Detailing, we specialize in delivering
+                    exceptional auto detailing services with a focus on quality
+                    and customer satisfaction.
+                  </p>
+                  <!-- Social media icons container -->
+                  <div class="socials__icon-container flex">
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-x-line"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right part of the footer containing links sections -->
+              <div class="footer__right">
+                <!-- Wrapper for all the link groups in the right section -->
+                <div class="footer__links-wrapper flex">
+                  <!-- Services links group -->
+                  <div class="footer__links-group flex flex-col">
+                    <!-- Heading for the Services links -->
+                    <h3 class="footer__heading orbitron">Services</h3>
+                    <!-- List of service links -->
+                    <ul class="footer__links-list flex flex-col">
+                      <li>Exterior Detailing</li>
+                      <li>Interior Detailing</li>
+                      <li>Engine Bay Cleaning</li>
+                      <li>Polishing</li>
+                    </ul>
+                  </div>
+
+                  <!-- Quick Links group -->
+                  <div class="footer__links-group flex flex-col">
+                    <!-- Heading for the Quick Links -->
+                    <h3 class="footer__heading orbitron">Quick Links</h3>
+                    <!-- List of quick navigation links -->
+                    <ul class="footer__links-list flex flex-col">
+                      <li>
+                        <a href="/pages/about.html" class="footer__link"
+                          >About Us</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/pages/services.html" class="footer__link"
+                          >Services</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/pages/gallery.html" class="footer__link"
+                          >Testimonials</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/pages/about.html" class="footer__link"
+                          >Contact Us</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- Address group -->
+                  <div class="footer__links-group flex flex-col">
+                    <!-- Heading for the Address section -->
+                    <h3 class="footer__heading orbitron">Address</h3>
+                    <!-- List of address details -->
+                    <ul class="footer__links-list flex flex-col">
+                      <li>749 Maynard Rd Helena MY, 59602</li>
+                      <li>(406) 475-2199</li>
+                      <li>info@XYZ.com</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Horizontal rule (divider) between top and bottom sections -->
+            <div class="footer__hr"></div>
+
+            <!-- Bottom section of the footer -->
+            <div class="footer__bottom">
+              <!-- Wrapper for bottom content with alignment adjustments -->
+              <div class="footer__bottom-content flex align-center">
+                <!-- Left side of the bottom section containing copyright info -->
+                <div class="footer__copy-left">
+                  <p class="footer__copy">
+                    &copy; 2024 Fat Duck Auto Detailing. All rights reserved.
+                  </p>
+                </div>
+
+                <!-- Right side of the bottom section containing a privacy policy link -->
+                <div class="footer__copy-right">
+                  <a href="#" class="footer__link">Privacy Policy</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Section Ends -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/assets/js/home.js"></script>
+    <script src="/assets/js/navbar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/utils.css" />
+    <link rel="stylesheet" href="/assets/css/gallery.css" />
+    <link rel="stylesheet" href="/assets/css/home.css" />
+    <link rel="stylesheet" href="/assets/css/common.css" />
+    <title>Gallery</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- Infobar Section Starts -->
+      <div class="infobar">
+        <!-- Wrapper for the infobar content -->
+        <div
+          class="infobar__wrapper flex container justify-between align-center"
+        >
+          <!-- Infobar left content -->
+          <div class="infobar__left">
+            <!-- List of contact information and location details -->
+            <ul class="infobar__list flex align-center">
+              <!-- Location information -->
+              <li class="flex">
+                <span class="infobar__icon">
+                  <i class="ri-map-pin-line"></i>
+                </span>
+                w 13th parks suite 559, Denver
+              </li>
+
+              <!-- Phone number -->
+              <li class="flex">
+                <span class="infobar__icon">
+                  <i class="fa-solid fa-phone"></i>
+                </span>
+                +1 123 456 789
+              </li>
+
+              <!-- Operating hours -->
+              <li class="flex">
+                <span class="infobar__icon">
+                  <i class="fa-regular fa-clock"></i>
+                </span>
+                Mon - Sat: 07:00 AM - 06:00 PM
+              </li>
+            </ul>
+          </div>
+          <!-- Infobar left content End -->
+
+          <!-- Infobar right content -->
+          <div class="infobar__right">
+            <!-- Social media icons -->
+            <div class="infobar__social-icon flex">
+              <i class="ri-facebook-circle-fill"></i>
+              <i class="ri-instagram-line"></i>
+              <i class="ri-linkedin-fill"></i>
+              <i class="ri-twitter-x-line"></i>
+            </div>
+          </div>
+          <!-- Infobar right content End -->
+        </div>
+        <!-- Wrapper for the infobar content End -->
+      </div>
+      <!-- Infobar Section Ends -->
+
+      <!-- Navbar Section Start -->
+      <div class="navbar flex">
+        <!-- Wrapper for the navbar content -->
+        <div class="nav__wrapper flex align-center justify-between container">
+          <!-- Navbar left content: Logo -->
+          <div class="nav__left">
+            <span class="logo">
+              <!-- Link to the homepage with the company name as the logo -->
+              <a href="/index.html" class="orbitron">Fat Duck Detailing</a>
+            </span>
+          </div>
+          <!-- Navbar left content End -->
+
+          <!-- Navbar middle content: Navigation Links -->
+          <div class="nav__middle inter">
+            <!-- List of navigation links -->
+            <ul class="flex align-center">
+              <li><a href="./index.html">home</a></li>
+              <li><a href="./pages/about.html">about</a></li>
+              <li><a href="./pages/services.html">services</a></li>
+              <li><a href="./pages/gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+          <!-- Navbar middle content End -->
+
+          <!-- Navbar right content: CTA and Menu Icon -->
+          <div class="nav__right inter">
+            <!-- Call to Action link for booking an appointment -->
+            <a href="./pages/contact.html">Book Appointment</a>
+            <!-- Menu icon for mobile navigation -->
+          </div>
+          <div class="hamburger__menu">
+            <!-- Icon for the hamburger menu (mobile view) -->
+            <i class="ri-menu-3-line"></i>
+          </div>
+          <div class="dropdown">
+            <!-- Dropdown menu for mobile navigation -->
+            <ul class="flex flex-col justify-center align-center">
+              <li><a href="/index.html" class="inter">home</a></li>
+              <li><a href="/pages/about.html" class="inter">about</a></li>
+              <li>
+                <a href="/pages/services.html" class="inter">services</a>
+              </li>
+              <li><a href="/pages/gallery.html" class="inter">Gallery</a></li>
+              <a href="/pages/contact.html" class="dropdown__cta"
+                >Book Appointment</a
+              >
+            </ul>
+          </div>
+          <!-- Navbar right content End -->
+        </div>
+        <!-- Wrapper for the navbar content End -->
+      </div>
+      <!-- Navbar Section End -->
+
+      <!-- Banner Section Ends-->
+      <div class="banner">
+        <div class="banner__container container">
+          <div class="banner__content-wrapper">
+            <div
+              class="banner__heading-wrapper flex flex-col align-center justify-center"
+            >
+              <h1 class="banner__heading orbitron">Our Portfolio</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Banner Section Ends-->
+
+      <!-- Gallery Section Starts -->
+      <div class="gallery">
+        <div class="gallery__container container">
+          <div class="gallery__content-wrapper content__wrapper">
+            <div class="gallery__bottom flex flex-col">
+              <!-- Grid wrapper for gallery images -->
+              <div class="gallery__image-wrapper grid">
+                <!-- Gallery images -->
+                <img src="/assets/images/Gallery img.jpeg" alt="" />
+                <img src="/assets/images/Gallery img1.jpeg" alt="" />
+                <img src="/assets/images/Gallery img2.jpeg" alt="" />
+                <img src="/assets/images/Gallery img3.jpeg" alt="" />
+                <img src="/assets/images/Gallery img4.jpeg" alt="" />
+                <img src="/assets/images/Gallery img5.jpeg" alt="" />
+                <img src="/assets/images/Gallery img6.jpeg" alt="" />
+                <img src="/assets/images/Gallery img7.jpeg" alt="" />
+                <img src="/assets/images/Gallery img8.jpeg" alt="" />
+              </div>
+              <!-- Call to Action button for viewing more work -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Section ends -->
+
+      <!-- CTA Section Starts -->
+      <div class="cta">
+        <div class="cta__container container">
+          <div class="cta__content-wrapper content__wrapper">
+            <div
+              class="cta__heading-wrapper flex flex-col align-center justify-center"
+            >
+              <span class="cta__heading orbitron"
+                >Ready To Discuss Your Nex Project?</span
+              >
+              <a href="/pages/contact.html" class="cta__btn">Get in touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CTA Section Ends -->
+
+      <!-- Footer Section Starts -->
+      <div class="footer">
+        <!-- Main footer container -->
+        <div class="footer__container container">
+          <!-- Wrapper for all footer content with flex and column layout -->
+          <div class="footer__content-wrapper flex flex-col inter">
+            <!-- Top section of the footer containing left and right parts -->
+            <div class="footer__top flex flex-col">
+              <!-- Left part of the footer containing the brand information -->
+              <div class="footer__left">
+                <!-- Brand section with logo, description, and social media icons -->
+                <div class="footer__brand flex flex-col">
+                  <!-- Footer logo -->
+                  <span class="footer__logo orbitron">Fat Duck Detailing</span>
+                  <!-- Description of the business -->
+                  <p class="footer__description">
+                    At Fat Duck Detailing, we specialize in delivering
+                    exceptional auto detailing services with a focus on quality
+                    and customer satisfaction.
+                  </p>
+                  <!-- Social media icons container -->
+                  <div class="socials__icon-container flex">
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-x-line"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right part of the footer containing links sections -->
+              <div class="footer__right">
+                <!-- Wrapper for all the link groups in the right section -->
+                <div class="footer__links-wrapper flex">
+                  <!-- Services links group -->
+                  <div class="footer__links-group flex flex-col">
+                    <!-- Heading for the Services links -->
+                    <h3 class="footer__heading orbitron">Services</h3>
+                    <!-- List of service links -->
+                    <ul class="footer__links-list flex flex-col">
+                      <li>Exterior Detailing</li>
+                      <li>Interior Detailing</li>
+                      <li>Engine Bay Cleaning</li>
+                      <li>Polishing</li>
+                    </ul>
+                  </div>
+
+                  <!-- Quick Links group -->
+                  <div class="footer__links-group flex flex-col">
+                    <!-- Heading for the Quick Links -->
+                    <h3 class="footer__heading orbitron">Quick Links</h3>
+                    <!-- List of quick navigation links -->
+                    <ul class="footer__links-list flex flex-col">
+                      <li>
+                        <a href="/pages/about.html" class="footer__link"
+                          >About Us</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/pages/services.html" class="footer__link"
+                          >Services</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/pages/gallery.html" class="footer__link"
+                          >Testimonials</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/pages/contact.html" class="footer__link"
+                          >Contact Us</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- Address group -->
+                  <div class="footer__links-group flex flex-col">
+                    <!-- Heading for the Address section -->
+                    <h3 class="footer__heading orbitron">Address</h3>
+                    <!-- List of address details -->
+                    <ul class="footer__links-list flex flex-col">
+                      <li>749 Maynard Rd Helena MY, 59602</li>
+                      <li>(406) 475-2199</li>
+                      <li>info@XYZ.com</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Horizontal rule (divider) between top and bottom sections -->
+            <div class="footer__hr"></div>
+
+            <!-- Bottom section of the footer -->
+            <div class="footer__bottom">
+              <!-- Wrapper for bottom content with alignment adjustments -->
+              <div class="footer__bottom-content flex align-center">
+                <!-- Left side of the bottom section containing copyright info -->
+                <div class="footer__copy-left">
+                  <p class="footer__copy">
+                    &copy; 2024 Fat Duck Auto Detailing. All rights reserved.
+                  </p>
+                </div>
+
+                <!-- Right side of the bottom section containing a privacy policy link -->
+                <div class="footer__copy-right">
+                  <a href="#" class="footer__link">Privacy Policy</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Section Ends -->
+      <script src="/assets/js/navbar.js"></script>
+      <script src="/assets/js/home.js"></script>
+    </div>
+  </body>
+</html>
