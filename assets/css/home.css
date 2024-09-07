@@ -1,19 +1,26 @@
 /* Hero starts */
 .hero {
-    background-image: linear-gradient(270deg,
-            rgba(14, 13, 20, 0) 0%,
-            rgba(14, 13, 20, 0.32) 30%,
-            rgba(14, 13, 20, 0.64) 60%,
-            rgba(14, 13, 20, 0.8) 90%,
-            #0e0d14 100%),
-        url(/assets/images/Hero\ img.png);
+    background-image: url(/assets/images/Hero\ img.png);
     padding: 14rem 0rem;
     color: var(--clr-white);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
 }
 
+.hero::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--clr-dark);
+    opacity: 64%;
+    z-index: -1;
+}
 
 .hero__content-wrapper {
     gap: var(--size-16px);
@@ -159,10 +166,6 @@
     gap: 1.6rem;
 }
 
-.services__card {
-    border: 1px solid var(--clr-text);
-}
-
 .services__card-top {
     height: 18rem;
     width: 100%;
@@ -172,10 +175,11 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
 .services__card-bottom {
-    padding: var(--size-32px) .8rem;
+    padding: var(--size-32px) 0rem;
 }
 
 .services__card-bottom-content {
@@ -558,6 +562,26 @@ textarea::placeholder {
 
 /* Large screens (lg) */
 @media (min-width: 960px) {
+    .hero {
+        background-image: linear-gradient(270deg,
+                rgba(14, 13, 20, 0) 0%,
+                rgba(14, 13, 20, 0.32) 30%,
+                rgba(14, 13, 20, 0.64) 60%,
+                rgba(14, 13, 20, 0.8) 90%,
+                #0e0d14 100%),
+            url(/assets/images/Hero\ img.png);
+    }
+
+    .hero::after {
+        content: "";
+        position: relative;
+        height: 0%;
+        width: 0%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
     .hero__tag {
         font-size: var(--size-16px);
     }
@@ -632,7 +656,7 @@ textarea::placeholder {
     }
 
     .services__card-bottom {
-        padding: var(--size-24px) var(--size-24px);
+        padding: var(--size-24px) 0rem;
 
     }
 
