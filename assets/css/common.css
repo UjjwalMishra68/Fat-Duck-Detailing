@@ -146,13 +146,13 @@
     padding: 1.2rem 2.4rem;
     background-color: var(--clr-red);
     color: var(--clr-white);
-    font-weight: 600;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
 }
 
 /* Navbar ends */
 
 /* Banner Starts */
-/* Banner Ends */
 .banner {
     background-image: url("/assets/images/Banner\ img.jpg");
     position: relative;
@@ -178,6 +178,99 @@
     color: var(--clr-white);
     font-size: 2.2rem;
 }
+
+/* Banner Ends */
+
+/* Pricing Starts */
+.pricing__heading-wrapper {
+    text-align: center;
+}
+
+.pricing__description {
+    max-width: 52ch;
+}
+
+.pricing__cards-wrapper {
+    grid-template-rows: repeat(3, 1fr);
+    gap: var(--size-24px);
+}
+
+.pricing__card {
+    padding: var(--size-24px) var(--size-16px);
+    font-family: "Inter", sans-serif;
+}
+
+.pricing__card {
+    background-color: #ffffff;
+    opacity: 96%;
+    color: var(--clr-text);
+}
+
+.pricing__card:nth-child(2) {
+    background-color: var(--clr-red);
+    color: var(--clr-white);
+    opacity: 96%;
+}
+
+.pricing__card-content {
+    gap: 1.6rem;
+}
+
+.pricing__card-tittle {
+    font-size: var(--size-18px);
+}
+
+.pricing__card-description {
+    font-size: var(--size-14px);
+}
+
+.pricing__card-price {
+    font-size: var(--size-24px);
+    font-weight: 600;
+}
+
+.pricing__hr {
+    height: .16rem;
+    width: 100%;
+    background-color: var(--clr-dark);
+    opacity: 60%;
+}
+
+.pricing__hr-white {
+    background-color: var(--clr-white);
+}
+
+.pricing__card-services ul {
+    gap: var(--size-16px);
+}
+
+.pricing__card-services ul li {
+    font-size: var(--size-14px);
+    gap: .8rem;
+    display: flex;
+}
+
+.pricing__card a {
+    padding: 1.2rem 2.4rem;
+    font-size: var(--size-18px);
+    border: 1.6px solid var(--clr-text);
+    color: var(--clr-text);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+
+.pricing__card:nth-child(2) a {
+    border: none;
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+    opacity: 96%;
+}
+
+/* Pricing Ends */
 
 /* CTA Section Starts */
 .cta {
@@ -320,6 +413,14 @@
 /* Footer Ends */
 
 /* Media query starts */
+
+/* Small screens (sm) */
+@media (min-width: 640px) {
+    .pricing__cards-wrapper {
+        grid-template-rows: 1fr;
+    }
+}
+
 @media (min-width: 768px) {
 
     /* Footer Starts */
@@ -353,6 +454,44 @@
     .infobar__right {
         display: none;
     }
+
+    /* Infobar Ends */
+
+    /* Pricing Starts */
+    .pricing__card {
+        padding: var(--size-40px) var(--size-24px);
+    }
+
+    .pricing__card-content {
+        gap: var(--size-24px);
+    }
+
+    .pricing__card-tittle {
+        font-size: var(--size-24px);
+    }
+
+    .pricing__card-description {
+        font-size: var(--size-16px);
+    }
+
+    .pricing__card-price {
+        font-size: var(--size-32px);
+    }
+
+    .pricing__card-services ul li {
+        font-size: var(--size-16px);
+        gap: var(--size-16px);
+    }
+
+    .pricing__card-services ul li i {
+        font-size: 2rem;
+    }
+
+    .pricing__card a {
+        font-size: 2.2rem;
+    }
+
+    /* Pricing Ends */
 
     /* CTA Section Starts */
     .cta {
