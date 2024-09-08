@@ -191,22 +191,16 @@
 }
 
 .pricing__cards-wrapper {
-    grid-template-rows: repeat(3, 1fr);
     gap: var(--size-24px);
-}
-
-.pricing__card {
-    padding: var(--size-24px) var(--size-16px);
-    font-family: "Inter", sans-serif;
-    display: grid;
-    grid-template-rows: subgrid;
-    grid-row: 1 / 7;
 }
 
 .pricing__card {
     background-color: #ffffff;
     opacity: 96%;
     color: var(--clr-text);
+    padding: var(--size-24px) var(--size-16px);
+    font-family: "Inter", sans-serif;
+    display: grid;
 }
 
 .pricing__card:nth-child(2) {
@@ -419,13 +413,6 @@
 /* Footer Ends */
 
 /* Media query starts */
-
-/* Small screens (sm) */
-@media (min-width: 640px) {
-    .pricing__cards-wrapper {
-        grid-template-rows: 1fr;
-    }
-}
 
 @media (min-width: 768px) {
 
