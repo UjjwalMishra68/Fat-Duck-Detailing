@@ -179,6 +179,10 @@
     font-size: 2.2rem;
 }
 
+.banner__heading {
+    font-size: var(--size-32px);
+}
+
 /* Banner Ends */
 
 /* Pricing Starts */
@@ -449,6 +453,13 @@
     }
 
     /* Infobar Ends */
+
+    /* Banner starts */
+    .banner__heading {
+        font-size: var(--size-48px);
+    }
+
+    /* Banner Ends */
 
     /* Pricing Starts */
     .pricing__card {
