@@ -1,0 +1,41 @@
+.privacy__content {
+    gap: 2.4rem;
+}
+
+section {
+    color: var(--clr-text);
+    gap: var(--size-16px);
+    font-size: var(--size-14px);
+}
+
+section>h2 {
+    font-size: var(--size-28px);
+}
+
+section p {
+    font-size: var(--size-14px);
+}
+
+section strong {
+    font-size: var(--size-18px);
+}
+
+section ul {
+    gap: var(--size-16px);
+}
+
+section ul li {
+    font-size: var(--size-14px);
+    list-style-type: circle;
+}
+
+/* Media query starts */
+/* Medium screens (md) */
+@media (min-width: 768px) {
+
+    section,
+    section p,
+    section ul li {
+        font-size: var(--size-16px);
+    }
+}
